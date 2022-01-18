@@ -3,3 +3,4 @@ fbprophet
 prophet
 plotly
 streamlit
+pystan
