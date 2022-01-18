@@ -62,8 +62,7 @@ forecast = m.predict(future)
 st.subheader('Forecast data')
 st.write(forecast.tail())
 
-color = st.color_picker('Pick A Color', '#00f900')
-st.write('The current color is', color)
+
     
 st.write(f'Forecast plot for {n_years} years')
 fig1 = plot_plotly(m, forecast)
